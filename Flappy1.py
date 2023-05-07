@@ -142,6 +142,7 @@ while True:
         bird_surface,bird_rect=bird_animation()
 
     screen.blit(bg_surface,(0,0))
+    
 
     if game_active:
         bird_movement+=gravity
